@@ -18,11 +18,11 @@ A simple CLI to google stuff
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g googlecli
+$ npm install -g cligoogle
 $ google COMMAND
 running command...
 $ google (-v|--version|version)
-googlecli/0.0.0 darwin-x64 node-v12.18.3
+cligoogle/0.0.0 darwin-x64 node-v12.18.3
 $ google --help [COMMAND]
 USAGE
   $ google COMMAND

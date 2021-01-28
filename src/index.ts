@@ -24,6 +24,9 @@ class Googlecli extends Command {
       query.replace(" ", "+")
       open('http://google.com/search?q=' + query);
     }
+    else{
+      this.log("Error: No query provided. Please provide a query.")
+    }
   }
 }
 
