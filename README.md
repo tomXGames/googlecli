@@ -19,17 +19,20 @@ A simple CLI to google stuff
 <!-- usage -->
 ```sh-session
 $ npm install -g cligoogle
-$ google COMMAND
-running command...
+$ google QUERY
+searching for QUERY...
 $ google (-v|--version|version)
-cligoogle/0.0.0 darwin-x64 node-v12.18.3
-$ google --help [COMMAND]
+googlecli/0.0.0 darwin-x64 node-v12.18.3
+$ google --help
 USAGE
-  $ google COMMAND
+  $ google QUERY
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+$ google QUERY
+searches for query given as an argument in quotes
+
 
 <!-- commandsstop -->
